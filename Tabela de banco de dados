@@ -1,0 +1,55 @@
+Aluno:Zeky Felipe Donizetti Silverio Ribeiro
+Ra:010623037
+Email:zekyhg@gmail.com
+
+
+Tabela: Produtos
+
+Produto_id (PK)
+Nome
+Decricao
+Preco
+Categoria.
+Marca
+Volume
+Estoque
+Imagem
+
+
+
+Tabela: Clientes
+
+cliente_id(PK)
+nome
+sobrenome
+email
+senha
+endereço
+telefone
+
+
+
+
+
+Tabela: Pedidos
+pedido_id(PK)
+cliente_id(PK)
+data_pedido
+status
+valor_total
+forma_pagamento
+
+Tabela: Produtos_Pedidos
+pedido_id(PK)
+produto_id(PK)
+quantidade
+
+
+Tabela: Fornecedores
+fornecedor_id(PK)
+nome
+contato
+
+
+
+
